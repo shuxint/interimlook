@@ -1,0 +1,15 @@
+Package: interimlook
+Title: Evaluate Type I Error Across Interim Analyses
+Version: 0.1.0
+Authors@R: person("Nina", "Tang", email = "hydralynette@gmail.com", role = c("aut", "cre"))
+Description: Calibrates efficacy-only group sequential designs under the
+    canonical joint-normal model. Compare Lan-DeMets alpha-spending designs
+    against repeated nominal testing, calculate operating characteristics,
+    and validate results by Monte Carlo simulation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: statmod
+Suggests: mvtnorm, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.3

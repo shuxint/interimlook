@@ -1,0 +1,5 @@
+^\.Rbuildignore$
+^\.github$
+^README\.files$
+^tools$
+^\.gitignore$

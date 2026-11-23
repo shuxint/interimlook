@@ -1,7 +1,7 @@
 Package: interimlook
 Title: Evaluate Type I Error Across Interim Analyses
 Version: 0.1.0
-Authors@R: person("Nina", "Tang", email = "hydralynette@gmail.com", role = c("aut", "cre"))
+Authors@R: person("Shuxin", "Tang", email = "hydralynette@gmail.com", role = c("aut", "cre"))
 Description: Calibrates efficacy-only group sequential designs under the
     canonical joint-normal model. Compares Lan-DeMets alpha-spending designs
     against repeated nominal testing, calculates operating characteristics,

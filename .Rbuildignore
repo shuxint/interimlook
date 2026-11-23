@@ -3,3 +3,5 @@
 ^README\.files$
 ^tools$
 ^\.gitignore$
+
+^LICENSE\.md$

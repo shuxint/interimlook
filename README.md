@@ -51,3 +51,11 @@ The package supports a single hypothesis, one-sided upper efficacy stopping, one
 Tests cover a fixed-horizon reference case, irregular schedules, independent multivariate normal integration with `mvtnorm`, seeded simulation, and input validation. From the package root, run `Rscript -e 'devtools::test(".")'` or check a source archive with `R CMD check`.
 
 The alpha-spending methods follow Lan and DeMets. [Original article](https://doi.org/10.1093/biomet/70.3.659) · [gsDesign spending function formulas](https://keaven.github.io/gsDesign/reference/sfLDOF.html)
+
+## Project History
+
+Development of interimlook began in April 2024.
+
+The package was subsequently developed into a reproducible R
+implementation for evaluating Type I error and operating
+characteristics in group sequential clinical trial designs.

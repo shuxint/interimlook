@@ -40,9 +40,9 @@ simulate_interim(design, n_sim = 200000, seed = 905)
 
 For the O’Brien–Fleming-type design, the one-sided nominal p-value cutoffs are approximately 0.00153, 0.00916, and 0.02200. `alpha_increment` is the probability under the null of first crossing at each look. `nominal_p` is the marginal p-value corresponding to that look’s Z cutoff.
 
-![Three-look efficacy boundaries and cumulative Type I error](README.files/interim-comparison.png)
+![Three-look efficacy boundaries and cumulative Type I error](inst/extdata/interim-comparison.png)
 
-The figure and [underlying CSV](README.files/interim-comparison.csv) can be regenerated from the package root with `Rscript tools/benchmark.R` after installing the package and `ggplot2`.
+The figure and [underlying CSV](inst/extdata/interim-comparison.csv) can be regenerated from the package root with `Rscript tools/benchmark.R` after installing the package and `ggplot2`.
 
 ## Model and verification
 

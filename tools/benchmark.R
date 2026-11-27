@@ -29,6 +29,6 @@ figure <- ggplot(long, aes(information, value, colour = Method)) +
     panel.grid.minor = element_blank(), panel.spacing = grid::unit(1.7, "lines"),
     strip.text = element_text(face = "bold", colour = "#15243d"), legend.position = "bottom")
 
-dir.create("README.files", showWarnings = FALSE)
-write.csv(comparison, "README.files/interim-comparison.csv", row.names = FALSE)
-ggsave("README.files/interim-comparison.png", figure, width = 8.5, height = 4, dpi = 170)
+dir.create("inst/extdata", recursive = TRUE, showWarnings = FALSE)
+write.csv(comparison, "inst/extdata/interim-comparison.csv", row.names = FALSE)
+ggsave("inst/extdata/interim-comparison.png", figure, width = 8.5, height = 4, dpi = 170)
